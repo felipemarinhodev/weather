@@ -9,8 +9,6 @@
     "lint": "eslint src/* --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn jest --watch",
-    "storybook": "start-storybook -s ./public -p 6006 --no-dll",
-    "build-storybook": "build-storybook -s ./public --no-dll",
     "generate": "yarn plop --plopfile generators/plopfile.js"
   },
   "husky": {

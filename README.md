@@ -1,30 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Weather
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Instalação](#instalacao)
+      * [Rodando o Front End](#rodando-o-front-end)
+   * [Tests](#testes)
+   * [Tecnologias](#tecnologias)
+<!--te-->
 
-## Getting Started
+![loading page](screenshots/loading.png?raw=true)
 
-First, run the development server:
+![main page](screenshots/main.png?raw=true)
+## Sobre
+
+<p align="center">Esse projeto front-end desenvolvido em ReactJS obtem a atual localização do usuário e informa as condições climaticas dele. É destinado ao desafio <i>Builders</i> para a vaga de React Developer</p>
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+### Intalação
+```bash
+# Clone este repositório
+$ git clone <https://github.com/felipemarinhodev/weather>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weather
+
+# Instale as dependências
+$ npm install
+# ou
+$ yarn i
+```
+## Como usar
+
+### 🎲 Rodando o front end
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weather
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+#ou
+$ yarn dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
+### ⚠️ Rodando os teste
+
+```bash
+# Acesse a pasta do projeto no terminal/cmd
+$ cd weather
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run test
+#ou
+$ yarn test
+
+# Será executado os teste e exibido no console.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛠 Tecnologias
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [NextJS](https://nextjs.org)
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com)
+- [styled-media-query](https://www.npmjs.com/package/styled-media-query)
+- [Jest](https://jestjs.io)
+- [ESLint](https://eslint.org)
+- [axios](https://axios-http.com)
