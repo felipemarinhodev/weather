@@ -12,6 +12,8 @@
 ![loading page](screenshots/loading.png?raw=true)
 
 ![main page](screenshots/main.png?raw=true)
+
+![main responsive page](screenshots/main-responsive.png?raw=true)
 ## Sobre
 
 <p align="center">Esse projeto front-end desenvolvido em ReactJS obtem a atual localização do usuário e informa as condições climaticas dele. É destinado ao desafio <i>Builders</i> para a vaga de React Developer</p>
