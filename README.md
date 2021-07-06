@@ -79,3 +79,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Jest](https://jestjs.io)
 - [ESLint](https://eslint.org)
 - [axios](https://axios-http.com)
+- [plop](https://plopjs.com)
