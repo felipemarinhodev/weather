@@ -21,6 +21,7 @@
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
 ### Intalação
 ```bash
 # Clone este repositório
@@ -34,9 +35,12 @@ $ npm install
 # ou
 $ yarn i
 ```
+
+Outro pré-requisito para a execução do projeto é possuir uma __API KEY__ do serviço [Open Weather Map](https://openweathermap.org/api). Após realizar o cadastro e estar de posse da sua chave, É necessário criar o arquivo de `.env.local` com base no arquivo `example.env.local` e incluir a chave na variável de ambiente `NEXT_PUBLIC_API_KEY`.
 ## Como usar
 
 ### 🎲 Rodando o front end
+
 
 ```bash
 # Acesse a pasta do projeto no terminal/cmd
