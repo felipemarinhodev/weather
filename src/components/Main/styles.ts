@@ -1,32 +1,46 @@
-import styled from 'styled-components'
+import { lighten } from 'polished'
+import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
+  ${({ theme }) => css`
+    background: ${theme.colors.primary}
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    padding: ${theme.spacings.xxlarge};
+    text-align: center;
+    min-width: 795px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    background: ${lighten(0.2, theme.colors.primary)};
+  `}
 `
 
-export const Title = styled.h1`
-  font-size: 2.5rem;
+export const WrapperContainer = styled.div`
+  ${({ theme }) => css`
+    position: relative;
+    max-width: 1200px;
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    background: ${lighten(0.2, theme.colors.lightBg)};
+
+    padding: 0 ${theme.spacings.xsmall};
+  `}
 `
 
-export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 400;
-`
-
-export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
+export const Close = styled.button`
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  padding: 5px 5px;
+  border: none;
+  background: transparent;
 `

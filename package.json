@@ -1,5 +1,5 @@
 {
-  "name": "react-avancado-boilerplate",
+  "name": "Weather",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -21,8 +21,7 @@
   "lint-staged": {
     "src/**/*": [
       "yarn run eslint --fix",
-      "yarn run lint",
-      "yarn test --findRelatedTests --bail"
+      "yarn run lint"
     ]
   },
   "dependencies": {
